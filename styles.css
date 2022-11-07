@@ -1,3 +1,11 @@
 .logo {
     width: 100px;
 }
+
+nav,
+#menu-checkbox {
+display: none;
+}
+#menu-checkbox :checked ~ nav {
+display: block;
+}
