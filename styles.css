@@ -2,10 +2,11 @@
     width: 100px;
 }
 
-nav,
-#menu-checkbox {
-display: none;
+#checkbox:checked ~ nav {
+    display: block;
 }
-#menu-checkbox :checked ~ nav {
-display: block;
+
+nav,
+#checkbox {
+    display: none;
 }
