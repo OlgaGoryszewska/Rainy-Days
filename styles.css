@@ -32,7 +32,15 @@ nav,
   
 }
 .header{
-background-color:F6F6F6 ;
-color: 1C1B1F;
+    background-color: #F6F6F6 ;
+    color: #1C1B1F;
 }
+@font-face {
+    font-family:RobotoCondensed-Regular ;
+    src: url(fonts/RobotoCondensed-Regular.ttf);
+}
+.menu {
+    font-family: RobotoCondensed-Regular;
+    
 
+}
