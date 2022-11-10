@@ -31,6 +31,10 @@ nav,
     float: right;
   
 }
+@font-face {
+    font-family: RobotoCondenced-Italic;
+    src: url(fonts/RobotoCondensed-Italic.ttf);
+}
 .header{
     display: block;
     padding: 1px;
@@ -38,6 +42,9 @@ nav,
     background-color: #F6F6F6 ;
     color: #1C1B1F;
     
+}
+.header {
+    font-family: RobotoCondenced-Italic;
 }
 @font-face {
     font-family:RobotoCondensed-Regular ;
@@ -58,11 +65,16 @@ nav,
     gap: 20px;
     padding-left: 200px;
     font-family: RobotoCondensed-Regular;
-
-
-    
-    
-    
-    
-
 }
+.newitems {
+    display: block;
+    position: relative;
+    padding: 20px;
+    padding-left: 40px;
+    margin: -1%;
+    font-family: RobotoCondensed-Regular;
+    background-color: #FC4D05;
+    color: #1C1B1F;
+    text-align: left;
+}
+
