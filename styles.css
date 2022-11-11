@@ -81,7 +81,7 @@ nav,
     display: grid;
     justify-content: center;
     align-items: center;
-    grid-template-columns:auto;
+    grid-template-columns:;
     grid-gap: 300px;
     padding: 100px;
     grid-template-columns: 300px 300px;
@@ -102,7 +102,7 @@ nav,
     align-self: center;
     justify-items: center;
     font-family:UrbanistLight ;
-    font-size: 1,5rem;
+    font-size: 1.2rem;
 
 }
 .itembold {
@@ -110,19 +110,23 @@ nav,
     align-self: center;
     justify-items: center;
     font-family:RobotoMedium ;
-    font-size: 1,5rem;
+    font-size: 1.4rem;
 
 }
 
 .buybutton {
     display: flex;
-    text-decoration: ;
-
+    text-decoration: none;
+    border: 1px solid #FC4D05;
+    padding: 16px 37px;
+    font-family: RobotoMedium;
+    color: #1C1B1F;
     
-
 }
 
 .windjacket,
 .winterjacket {
     width: 300px;
 }
+
+
