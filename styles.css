@@ -87,19 +87,42 @@ nav,
     grid-template-columns: 300px 300px;
 
 }
+@font-face {
+    font-family: UrbanistLight;
+    src: url(fonts/Urbanist-Light.ttf);
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url(fonts/Roboto-Medium.ttf);
+}
 
 .item {
     display: grid;
     align-self: center;
     justify-items: center;
+    font-family:UrbanistLight ;
+    font-size: 1,5rem;
 
+}
+.itembold {
+    display: grid;
+    align-self: center;
+    justify-items: center;
+    font-family:RobotoMedium ;
+    font-size: 1,5rem;
 
+}
+
+.buybutton {
+    display: flex;
+    text-decoration: ;
+
+    
 
 }
 
 .windjacket,
 .winterjacket {
     width: 300px;
-
-
 }
