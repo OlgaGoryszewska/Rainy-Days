@@ -77,4 +77,29 @@ nav,
     color: #1C1B1F;
     text-align: left;
 }
+.jacketlist {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns:auto;
+    grid-gap: 300px;
+    padding: 100px;
+    grid-template-columns: 300px 300px;
 
+}
+
+.item {
+    display: grid;
+    align-self: center;
+    justify-items: center;
+
+
+
+}
+
+.windjacket,
+.winterjacket {
+    width: 300px;
+
+
+}
