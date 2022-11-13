@@ -8,20 +8,23 @@
     margin: 0%;
     padding: 0%;
 }
-#checkbox:checked ~ nav {
-    display: block;
-}
+
 body {
     margin: 0%;
 }
-nav,
-#checkbox {
+
+#menucheckbox {
     display: none;
 }
-.nav a {
+nav {
+    display: none;
+}
+
+#menucheckbox:checked ~ .navone {
     display: block;
 }
-#checkbox {
+
+#menucheckbox {
     object-position: right;
 }
 
@@ -80,8 +83,7 @@ nav,
 .jacketlist {
     display: grid;
     justify-content: center;
-    align-items: center;
-    grid-template-columns:;
+    align-items: stretch;
     grid-gap: 300px;
     padding: 100px;
     grid-template-columns: 300px 300px;
@@ -129,4 +131,146 @@ nav,
     width: 300px;
 }
 
+.headershowjackets {
+   font-family: RobotoCondensed-Regular;
+   padding: 3%;
+}
 
+.footerpic {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.jacketlist {
+    display: grid;
+    justify-content: center;
+    align-items: stretch;
+    grid-gap: 300px;
+    padding: 100px;
+    grid-template-columns: 300px 300px;
+}
+
+.checkbuttom {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #1C1B1F;
+    padding: 16px 37px;
+    font-family: RobotoMedium;
+    color: #F6F6F6;
+}
+
+.aboutfirstpic {
+    width: 100%;
+
+}
+.abouttextfirst,
+.abouttextsec,
+.abouttextthird {
+    position: absolute;
+    display: block;
+}
+
+.abouttextfirst {
+    top: 1300px;
+    right: 100px;
+    font-family: RobotoCondensed-Regular;
+    font-size: 4em;
+    color: #F6F6F6;
+}
+
+.abouttextsec {
+    top: 1450px;
+    right: 100px;
+    font-family: RobotoCondensed-Regular;
+    left: 600px;
+    font-size: 2em;
+    color: #F6F6F6;
+}
+.abouttextthird {
+    top: 1600px;
+    right: 100px;
+    left: 600px;
+    font-family: RobotoCondensed-Regular;
+    color: #F6F6F6;
+    font-size: 2em;
+}
+
+.aboutheadtwo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family:RobotoCondensed-Regular;
+    padding: 30px;
+    font-size: 2em;
+    color:#1C1B1F
+}
+
+.girlexplorer{
+    width: 40%;
+}
+
+.textgirlexplorer {
+    position: absolute;
+    top: 2100px;
+    right: 100px;
+    left: 600px;
+    align-content: center;
+    justify-content: center;
+    font-family:RobotoCondensed-Regular;
+    padding: 40px;
+    font-size: 2em;
+    color:#1C1B1F
+}
+
+span {
+    font-size: 2.8rem;
+  }
+
+.boyexplorer{
+    position: absolute;
+    display: flex;
+    right: 50px;
+    width: 50%;
+   
+}
+.textboyexplorer {
+    position: absolute;
+    top: 2700px;
+    right: 700px;
+    left: 50px;
+    align-content: center;
+    justify-content: center;
+    font-family:RobotoCondensed-Regular;
+    padding: 30px;
+    font-size: 2em;
+    color:#1C1B1F
+}
+ 
+.conone,
+.contwo,
+.conthree,
+.confour,
+.confive,
+.consex {
+    position:relative;
+    align-content: center;
+    justify-content: center;
+    font-family:RobotoCondensed-Regular;
+    left: 30px;
+    padding: 10px;
+    font-size: 1em;
+    color:#1C1B1F
+}
+.conone {
+    font-size: 2em;
+    
+}
+.conthree,
+.confive,
+.consex {
+   color: #8F8B8B;
+   
+}
