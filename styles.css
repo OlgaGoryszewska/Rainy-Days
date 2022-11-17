@@ -102,7 +102,7 @@ main {
     align-items: center;
     justify-items: center;
     font-family:UrbanistLight ;
-    font-size: 1rem;
+    font-size: 0.8rem;
 
 }
 .itembold {
@@ -111,7 +111,7 @@ main {
     justify-content: center;
     
     font-family:RobotoMedium ;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 
 }
 
@@ -267,4 +267,14 @@ span {
 .consex {
    color: #8F8B8B;
    
+}
+
+@media screen and (min-width:601px){
+    .item {
+    font-size: 1rem;}
+}
+
+.itembold {
+    font-size: 1.2rem;
+
 }
