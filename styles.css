@@ -46,13 +46,17 @@ main {
 
 .menu {
     display: none;
-    position: absolute;
-    top: 100px;
-    gap: 20px;
-    padding-left: 200px;
-    font-family: RobotoCondensed-Regular;
 }
-
+.menu:checked {
+    display: flex;
+    
+}
+#menu:checked ~ .nav-wrapper {
+    display: block;
+}
+nav {
+    display: none;
+}
 
 #menu {
     display: none;
@@ -81,7 +85,6 @@ main {
    margin: 1.2rem;
 
 }
-
 
 .item-img {
 
@@ -392,6 +395,15 @@ footer {
 }
 
 .menu {
+    display: flex;
+    position: absolute;
+    top: 100px;
+    gap: 20px;
+    padding-left: 200px;
+    font-family: RobotoCondensed-Regular;
+}
+
+nav {
     display: flex;
 }
 }
