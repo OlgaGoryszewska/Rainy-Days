@@ -32,20 +32,24 @@ main {
     font-size: 1.2rem ;
 }
 
-nav,
-#menu {
-    display: none;  
-}
-
-.hamburger-icon:checked ~ .menu {
-    display: block;
-}
-
 @font-face {
     font-family: RobotoCondenced-Italic;
     src: url(fonts/RobotoCondensed-Italic.ttf);
 }
-.header{
+#menu {
+    display: none;
+}
+
+#menu:checked ~ .menu {
+    display: flex;
+}
+
+nav {
+    display: none;
+}
+
+
+.header {
     display: flex;
     width: 100%;
     text-align: center;
@@ -54,6 +58,7 @@ nav,
     color: #1C1B1F;
     font-family: RobotoCondenced-Italic;
 }
+
 @font-face {
     font-family:RobotoCondensed-Regular ;
     src: url(fonts/RobotoCondensed-Regular.ttf);
