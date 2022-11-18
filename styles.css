@@ -47,11 +47,9 @@ main {
 .menu {
     display: none;
 }
-.menu:checked {
-    display: flex;
     
 }
-#menu:checked ~ .nav-wrapper {
+#menu:checked ~ nav {
     display: block;
 }
 nav {
@@ -63,7 +61,7 @@ nav {
 }
 
 .hamburger-icon {
-    object-position: right;
+    position: fixed;
     margin: 5px 16px;
     float: right;
 }
@@ -305,6 +303,7 @@ footer {
  }
 
  .button-footer {
+    text-decoration: none;
     display: inline-block;
     justify-content: space-around;
     color: #1C1B1F;
