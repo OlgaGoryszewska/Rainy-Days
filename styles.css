@@ -17,6 +17,18 @@ main {
     margin: 0%;
     padding: 0%;
 }
+#menu-checkbox {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+#menu-checkbox:checked ~ .menu{
+    display: block;
+}
+
 .item-menu {
     display: flex;
     color: #1C1B1F;
@@ -36,14 +48,6 @@ main {
     font-family: RobotoCondenced-Italic;
     src: url(fonts/RobotoCondensed-Italic.ttf);
 }
-#menu {
-    display: none;
-}
-
-#menu:checked ~ .menu {
-    display: flex;
-}
-
 
 
 .header {
@@ -73,7 +77,7 @@ main {
     text-align: left;
 }
 .item-wraper {
-    display: inline-flex;
+    display:flex;
     align-items:flex-end;
    justify-content: space-between;
    margin: 1.2rem;
@@ -402,5 +406,9 @@ footer {
 nav {
     text-decoration: none;
     display: flex;
+}
+
+.hamburger-icon{
+    display: none;
 }
 }
