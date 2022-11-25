@@ -203,31 +203,29 @@ right: 1rem;
    
 }
 
-.abouttextsec {
-    top: 1450px;
-    right: 100px;
+.about-text-sec{
+    display: flex;
+    position: absolute;
+    top: 35rem;
     font-family: RobotoCondensed-Regular;
-    left: 600px;
-    font-size: 2em;
+    font-size: 1.2em;
     color: #F6F6F6;
-}
-.abouttextthird {
-    top: 1600px;
-    right: 100px;
-    left: 600px;
-    font-family: RobotoCondensed-Regular;
-    color: #F6F6F6;
-    font-size: 2em;
+    right: 1rem;
+    left: 10rem;
+
 }
 
-.aboutheadtwo{
+.about-text-third {
     display: flex;
-    align-content: center;
-    justify-content: center;
-    font-family:RobotoCondensed-Regular;
-    padding: 30px;
-    font-size: 2em;
-    color:#1C1B1F
+    position: absolute;
+    top: 40rem;
+    font-family: RobotoCondensed-Regular;
+    font-size: 1.2em;
+    color: #F6F6F6;
+    right: 1rem;
+    left: 10rem;
+
+
 }
 
 .girlexplorer{
@@ -436,10 +434,23 @@ nav {
 }
 .about-text-first{
     top: 80rem;
-    font-family: RobotoCondensed-Regular;
     font-size: 4em;
-    color: #F6F6F6;
     right: 5rem;
    
+}
+.about-text-sec{
+    top: 90rem;
+    font-size: 3em;
+    right: 2rem;
+    left: 30rem;
+
+}
+.about-text-third {
+    top: 100rem;
+    font-size: 3em;
+    right: 2rem;
+    left: 30rem;
+
+
 }
 }
