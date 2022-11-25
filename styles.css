@@ -244,7 +244,13 @@ right: 1rem;
     font-size: 2em;
     color:#1C1B1F
 }
+.about-head-two{
+    font-size: 2rem;
+align-self: center;
+    font-family:RobotoCondensed-Regular;
 
+  }
+  
 span {
     font-size: 2.8rem;
   }
