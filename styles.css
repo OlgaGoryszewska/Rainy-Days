@@ -34,7 +34,19 @@ main {
     color: #1C1B1F;
     text-decoration: none;
     padding: 1rem;
+    font-family:RobotoCondensed-Regular ;
+    background-color: #F6F6F6;
+  
 }
+nav {
+   position: absolute;
+   right: 0rem;
+}
+header {
+    position: relative;
+ }    
+
+
 .menu ul {
     list-style: none;
     padding: 10px;
@@ -43,7 +55,14 @@ main {
     color: #FC4D05;
     font-size: 1.2rem ;
 }
-
+.hamburger-icon {
+display: flex;
+position: absolute;
+top: 5rem;
+right: 1rem;
+ 
+ 
+}
 @font-face {
     font-family: RobotoCondenced-Italic;
     src: url(fonts/RobotoCondensed-Italic.ttf);
@@ -168,23 +187,20 @@ main {
     color: #F6F6F6;
 }
 
-.aboutfirstpic {
+.about-first-pic {
     width: 100%;
+    display: flex;
 
 }
-.abouttextfirst,
-.abouttextsec,
-.abouttextthird {
+.about-text-first{
+    display: flex;
     position: absolute;
-    display: block;
-}
-
-.abouttextfirst {
-    top: 1300px;
-    right: 100px;
+    top: 32rem;
     font-family: RobotoCondensed-Regular;
-    font-size: 4em;
+    font-size: 2em;
     color: #F6F6F6;
+    right: 1rem;
+   
 }
 
 .abouttextsec {
@@ -410,5 +426,20 @@ nav {
 
 .hamburger-icon{
     display: none;
+}
+.item-menu{
+    background-color: #FFF;
+    display: flex;
+    position: relative;
+    top: -2rem;
+ 
+}
+.about-text-first{
+    top: 80rem;
+    font-family: RobotoCondensed-Regular;
+    font-size: 4em;
+    color: #F6F6F6;
+    right: 5rem;
+   
 }
 }
