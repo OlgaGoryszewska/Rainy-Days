@@ -195,9 +195,9 @@ right: 1rem;
 .about-text-first{
     display: flex;
     position: absolute;
-    top: 32rem;
+    top: 25rem;
     font-family: RobotoCondensed-Regular;
-    font-size: 2em;
+    font-size: 1.8em;
     color: #F6F6F6;
     right: 1rem;
    
@@ -206,24 +206,24 @@ right: 1rem;
 .about-text-sec{
     display: flex;
     position: absolute;
-    top: 35rem;
+    top: 28rem;
     font-family: RobotoCondensed-Regular;
-    font-size: 1.2em;
+    font-size: 0.8em;
     color: #F6F6F6;
     right: 1rem;
-    left: 10rem;
+    left: 8rem;
 
 }
 
 .about-text-third {
     display: flex;
     position: absolute;
-    top: 40rem;
+    top: 31rem;
     font-family: RobotoCondensed-Regular;
-    font-size: 1.2em;
+    font-size: 0.8em;
     color: #F6F6F6;
     right: 1rem;
-    left: 10rem;
+    left: 8rem;
 
 
 }
@@ -245,9 +245,10 @@ right: 1rem;
     color:#1C1B1F
 }
 .about-head-two{
-    font-size: 2rem;
-align-self: center;
+    position: relative;
+    font-size: 1rem;
     font-family:RobotoCondensed-Regular;
+    text-align: center;
 
   }
   
