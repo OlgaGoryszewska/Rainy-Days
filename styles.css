@@ -412,6 +412,11 @@ footer {
 
 }
 
+.img-box-checkout{ 
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (min-width:601px){
     .item {
     font-size: 1rem;
@@ -423,7 +428,7 @@ footer {
 }
 
 .item-img-checkout {
-    width: 40%%;
+    width: 40%;
     grid-row: 2;
 
 }
@@ -542,12 +547,12 @@ footer {
     justify-content: space-between;
   
 }
-.image-text-wraper-boy{
+    .image-text-wraper-boy{
     padding-bottom: 2rem;
 
 }
 
-.boy-explorer{
+    .boy-explorer{
     height: 40%;
     width: 70%;
     
@@ -574,8 +579,7 @@ width: 100%;
 
     .img-box-checkout{ 
         display: flex;
-    
         justify-content: center;
         
-        }
+    }
 }
