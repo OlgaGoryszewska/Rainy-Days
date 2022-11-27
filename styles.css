@@ -98,8 +98,8 @@ right: 1rem;
 .item-wraper {
     display:flex;
     align-items:flex-end;
-   justify-content: space-between;
-   margin: 1.2rem;
+    justify-content: space-between;
+    margin: 1.2rem;
 
 }
 
@@ -225,55 +225,66 @@ right: 1rem;
     right: 1rem;
     left: 8rem;
 
-
 }
 
-.girlexplorer{
-    width: 40%;
+.girl-explorer{
+    width: 10rem;
+    height: 12rem;
+    padding-top: 2rem;
 }
 
-.textgirlexplorer {
-    position: absolute;
-    top: 2100px;
-    right: 100px;
-    left: 600px;
-    align-content: center;
-    justify-content: center;
+.text-girl-explorer {
+    display: flex;
     font-family:RobotoCondensed-Regular;
-    padding: 40px;
-    font-size: 2em;
-    color:#1C1B1F
+    font-size: 0.8em;
+    color:#1C1B1F;
+    float: right;
+    padding: 1rem;
+    height: 10rem;
+    padding-top: 2rem;
+    
 }
+
+.image-text-wraper-girl{
+    display: flex;
+    flex: auto;
+    height: 15rem;
+    justify-content: space-between;
+    padding-bottom: 1;
+    
+
+  }
+
 .about-head-two{
     position: relative;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-family:RobotoCondensed-Regular;
     text-align: center;
+    padding-top: 2rem;
 
-  }
-  
-span {
-    font-size: 2.8rem;
-  }
+  } 
 
-.boyexplorer{
-    position: absolute;
+.image-text-wraper-boy{
     display: flex;
-    right: 50px;
-    width: 50%;
-   
+    flex: auto;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+
 }
-.textboyexplorer {
-    position: absolute;
-    top: 2700px;
-    right: 700px;
-    left: 50px;
-    align-content: center;
-    justify-content: center;
+
+.boy-explorer{
+    display: flex;
+   width: 10rem;
+   height: 6rem;
+   padding-bottom: 2rem;
+}
+.text-boy-explorer{
+    display: flex;
     font-family:RobotoCondensed-Regular;
-    padding: 30px;
-    font-size: 2em;
-    color:#1C1B1F
+    font-size: 0.8em;
+    color:#1C1B1F;
+    float: right;
+    padding: 1rem;
 }
  
 .conone,
