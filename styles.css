@@ -330,6 +330,7 @@ footer {
     background-image: url(images/footer.jpg);
     width: 100%;
     background-size: 100% 100%;
+
 }
 
 .footer-wraper-text {
@@ -337,6 +338,7 @@ footer {
    flex-direction: column;
    color: #FFF;
    font-family: RobotoCondensed-Regular;
+   background-color: #1C1B1F;
 
 }
 
@@ -444,12 +446,14 @@ footer {
 
 }
     .p-bold-footer {
-    font-size: 6rem;
-    margin-top: 10rem;;
+    font-size: 5rem;
+    margin-top: 10rem;
+    background-color: #1C1B1F;
 
 }
     .p-footer {
-    font-size: 4rem;
+    font-size: 3rem;
+    background-color: #1C1B1F;
 }
     .buybutton {
     padding: 16px 32px;
