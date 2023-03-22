@@ -154,23 +154,44 @@ nav {
     padding: 1rem;
     padding-bottom: 2rem;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
    
 }
 
 .instagram-wrapp,
 .facebook-wrapp{
     display: inline-block;
-    grid-column-start: 1;
+    grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 3;
-    padding-left: 1rem;
-    padding-bottom: 8px;
-    padding-top: 1rem;
+    padding: 1rem;
     vertical-align: middle;
     font-family:RobotoCondensed-Regular ;
    
 }
+
+
+.about-footer,
+.contact-footer{
+    display: flex;
+    align-self: center;
+    grid-column: 1;
+    grid-row: 3;
+    color: #252020;
+    font-family:RobotoCondensed-Regular ;
+    text-decoration: none;
+    padding: 1rem;
+    
+
+    
+ }
+
+ .about-footer{
+    grid-row: 4;
+    
+    
+ }
+ 
 
 .icon-facebook,
 .icon-instagram{
