@@ -65,7 +65,7 @@ body {
 
 .girl{
     display: flex;
-    width: 100%;
+    width: 80%;
     height: 50%;
     margin: auto;
     object-position: top;
@@ -130,6 +130,7 @@ nav {
 .footer-wrapp{
     display: grid;
     grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: auto 1fr auto auto;
     background: var(--light-gray);
       
     }
@@ -145,19 +146,22 @@ nav {
 }
 
 .subscribe-text{
-
     padding: 0px;
     margin-bottom: 10rem;
-    
-    
-    
-  
 }
 
 .subscribe-wrapper{
     padding: 1rem;
     grid-column-start: 1;
     grid-column-end: 3;
+   
+}
+
+.socialmedia-icons-wrapp{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    padding: 1rem;
    
 }
 
@@ -171,14 +175,11 @@ nav {
     grid-column-end: 4;
 }
 
-.newitems {
-    display: block;
-    position: relative;
-    padding: 20px;
-    padding-left: 40px;
-    margin: -1%;
+.new-items {
+    display: flex;
+    padding: 1rem;
     font-family: RobotoCondensed-Regular;
-    background-color: #FC4D05;
+    background-color: var(--gray);
     color: #1C1B1F;
     text-align: left;
 }
