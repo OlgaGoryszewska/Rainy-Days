@@ -152,16 +152,41 @@ nav {
 
 .subscribe-wrapper{
     padding: 1rem;
+    padding-bottom: 2rem;
     grid-column-start: 1;
     grid-column-end: 3;
    
 }
 
-.socialmedia-icons-wrapp{
-    grid-column-start: 2;
+.instagram-wrapp,
+.facebook-wrapp{
+    display: inline-block;
+    grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 3;
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 8px;
+    padding-top: 1rem;
+    vertical-align: middle;
+    font-family:RobotoCondensed-Regular ;
+   
+}
+
+.icon-facebook,
+.icon-instagram{
+   color: #252020;
+}
+
+.icon-facebook :hover {
+    color: var(--orange);
+ }
+
+ .icon-instagram :hover {
+    color: var(--orange);
+ }
+
+.instagram-wrapp{
+    grid-row-start: 4;
    
 }
 
