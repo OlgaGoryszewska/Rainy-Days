@@ -205,6 +205,9 @@ nav {
    font-family: UrbanistLight;
    align-items: center;
    justify-items: center;
+   margin:auto;
+   padding: 2rem;
+   
 
 }
 
@@ -218,6 +221,7 @@ nav {
     object-fit: cover;
     align-items: center;
     justify-self: center;
+    margin: 1rem;
 
 }
 .header-contact-page{
@@ -242,11 +246,6 @@ nav {
     justify-self: center;
     padding: 0.8rem;
     font-family:RobotoCondensed-Regular ;
-
-  
-
-
-  
      
   }
 .footer-media-wrapp{
@@ -640,6 +639,11 @@ footer {
     margin: auto;
    
 }
+
+.about-conteiner{
+    width: 600px;
+}
+
    .item-menu{
     background-color: #FFF;
     display: flex;
