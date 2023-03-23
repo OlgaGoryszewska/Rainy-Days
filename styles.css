@@ -157,6 +157,7 @@ nav {
     font-size: 18px;
     padding: 1rem;
     margin-bottom: 1rem;
+    border-radius: 10px;
     
 
 }
@@ -193,10 +194,9 @@ nav {
 }
 
 .input-contact-form{
-    width: 12rem;
+    width: 16rem;
      
 }
-
 
 .header-contact-page{
     grid-column: 1; 
