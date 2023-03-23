@@ -456,11 +456,10 @@ nav {
     position:relative;
     align-content: center;
     justify-content: center;
-    font-family:RobotoCondenced-Italic;
+    font-family:RobotoMedium;
     left: 30px;
-    
     font-size: 1em;
-    color:#1C1B1F
+    color:var(--orange);
 }
 .conone {
     font-size: 2em;
@@ -469,7 +468,7 @@ nav {
 .conthree,
 .confive,
 .consex {
-   color: #252020;
+   color: var(--black);
    
 }
 
