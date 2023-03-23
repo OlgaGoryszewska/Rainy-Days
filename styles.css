@@ -148,12 +148,23 @@ nav {
   
 }
 
+.form-wrapper{
+    display: grid;
+    justify-content:center;
+    font-family:RobotoCondensed-Regular ;
+    color:#252020;
+    grid-column: 2;
+    font-size: small;
+    padding: 1rem;
+
+}
 .subscribe-text{
     padding: 0px;
     margin-bottom: 10rem;
 }
 
 .subscribe-wrapper{
+
     padding: 1rem;
     padding-bottom: 2rem;
     grid-area: subs;
@@ -161,6 +172,20 @@ nav {
     justify-self: center;
     grid-row: 2;
    
+}
+.contact-page-container{
+    display: grid;
+    grid-template-columns: 2;
+   
+}
+.contact-container{
+    grid-column: 2;
+    
+   
+}
+
+.contact-adress{
+    grid-column: 1; 
 }
 
 
@@ -431,9 +456,9 @@ nav {
     position:relative;
     align-content: center;
     justify-content: center;
-    font-family:RobotoCondensed-Regular;
+    font-family:RobotoCondenced-Italic;
     left: 30px;
-    padding: 10px;
+    
     font-size: 1em;
     color:#1C1B1F
 }
