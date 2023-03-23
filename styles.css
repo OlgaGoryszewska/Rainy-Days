@@ -156,6 +156,7 @@ nav {
     grid-column: 2;
     font-size: small;
     padding: 1rem;
+    margin-bottom: 1rem;
 
 }
 .subscribe-text{
@@ -175,19 +176,24 @@ nav {
 }
 .contact-page-container{
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 1;
    
 }
 .contact-container{
-    grid-column: 2;
+    grid-column: 1;
     
    
 }
 
-.contact-adress{
+.header-contact-page{
     grid-column: 1; 
 }
+.contact-adress{
+    grid-column: 1; 
+    grid-row: 3;
+}
 
+.legend-contact
 
 .footer-media-wrapp,
 .instagram-wrapp,
@@ -237,6 +243,7 @@ nav {
     grid-row-start: 4;
    
 }
+
 
 .header-under-text {
     text-align: center;
@@ -447,7 +454,13 @@ nav {
     padding: 1rem;
 }
  
-.conone,
+
+.input-contact-form{
+   padding: 0.3rem;
+   margin-bottom: 1rem;
+   
+}
+
 .contwo,
 .conthree,
 .confour,
@@ -457,7 +470,7 @@ nav {
     align-content: center;
     justify-content: center;
     font-family:RobotoMedium;
-    left: 30px;
+    left: 1rem;
     font-size: 1em;
     color:var(--orange);
 }
