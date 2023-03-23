@@ -157,7 +157,7 @@ nav {
     font-size: 18px;
     padding: 1rem;
     margin-bottom: 1rem;
-    border-radius: 10px;
+    background-color: var(--light-gray);
     
 
 }
@@ -176,6 +176,7 @@ nav {
     grid-row: 2;
    
 }
+
 
 .h1-contact-undertext{
     grid-column-start: 1;
@@ -198,6 +199,27 @@ nav {
      
 }
 
+.about-conteiner{
+   display: grid;
+   grid-template-rows: 4;
+   font-family: UrbanistLight;
+   align-items: center;
+   justify-items: center;
+
+}
+
+.img-about-third,
+.img-about-secound,
+.img-about-first {
+    display: flex;
+    border-radius: 50%; 
+    width:300px;
+    height: 300px;
+    object-fit: cover;
+    align-items: center;
+    justify-self: center;
+
+}
 .header-contact-page{
     grid-column: 1; 
 }
@@ -209,11 +231,24 @@ nav {
 .legend-contact{
    margin-bottom: 1.5rem;
    justify-self: center;
-   color: #FC4D05;
+   color: var(--black);
    font-size: 32px;
     
  }
 
+ .button-contact{
+    margin-top: 1rem;
+    align-self: center;
+    justify-self: center;
+    padding: 0.8rem;
+    font-family:RobotoCondensed-Regular ;
+
+  
+
+
+  
+     
+  }
 .footer-media-wrapp{
    grid-area: page;
    
@@ -597,6 +632,13 @@ footer {
 
     .hamburger-icon{
     display: none;
+}
+
+.contact-page-container{
+    width: 1000px;
+    align-self: center;
+    margin: auto;
+   
 }
    .item-menu{
     background-color: #FFF;
