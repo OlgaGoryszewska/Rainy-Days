@@ -31,16 +31,36 @@
       </div>
     </div>
   </header>
-    <main>
-
-        <h1 class="conone"> Contact</h1>
+    <main class="contact-page-container">
+      <h1 class="conone"> Contact</h1>
+      <div class="contact-adress">
         <p class="contwo"> TELEPHONE</p>
         <p class="conthree"> 004748554778 / 24h</p>
         <p class="confour"> ADDRESS</p>
         <p class="confive"> MARKEN 31</p>
         <p class="consex"> BERGEN </p>
+      </div>
+      <div class="contact-container">
+
+       <form action="submit.php" method="post">
+        <label for="name">NAME</label>
+        <input type="text" name="name"/>
+
+        <label for="email">EMAIL</label>
+        <input type="email" name="email"/>
+
+        <label for="subject">SUBJECT</label>
+        <input type="text" name="subject"/>
+
+        <label for="message">MESSAGE</label>
+        <textarea type="text" name="message" rows="4"></textarea>
+        <button type="submit" name="SEND"></button>
+
+      </form>
+      </div>
        
     </main>
+
     <footer class="footer-wrapp">
       <a href="index.html"><img src="images/logo.png" alt="mountain image with Rainy days title" class="logo-footer"></a> 
       <div class="subscribe-wrapper">
