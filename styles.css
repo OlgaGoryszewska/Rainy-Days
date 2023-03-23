@@ -154,9 +154,10 @@ nav {
     font-family:RobotoCondensed-Regular ;
     color:#252020;
     grid-column: 2;
-    font-size: small;
+    font-size: 18px;
     padding: 1rem;
     margin-bottom: 1rem;
+    
 
 }
 .subscribe-text{
@@ -181,9 +182,14 @@ nav {
 }
 .contact-container{
     grid-column: 1;
-    
-   
+     
 }
+
+.input-contact-form{
+    width: 12rem;
+     
+}
+
 
 .header-contact-page{
     grid-column: 1; 
@@ -193,7 +199,13 @@ nav {
     grid-row: 3;
 }
 
-.legend-contact
+.legend-contact{
+   margin-bottom: 1.5rem;
+   justify-self: center;
+   color: #FC4D05;
+   font-size: 26px;
+    
+ }
 
 .footer-media-wrapp{
    grid-area: page;
@@ -212,8 +224,6 @@ nav {
     justify-self: center;
    
 }
-
-
 
 .pages-footer-wrapper,
 .about-footer,
@@ -465,9 +475,10 @@ nav {
 .input-contact-form{
    padding: 1rem;
    margin-bottom: 1rem;
-   width: 100%;
+  
    
 }
+.form
 
 .contwo,
 .conthree,
