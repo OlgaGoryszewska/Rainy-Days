@@ -175,9 +175,16 @@ nav {
     grid-row: 2;
    
 }
+
+.h1-contact-undertext{
+    grid-column-start: 1;
+    font-family:  UrbanistLight;
+    font-size: 21px;
+}
 .contact-page-container{
     display: grid;
     grid-template-columns: 1;
+    padding: 1rem;
    
 }
 .contact-container{
@@ -196,7 +203,7 @@ nav {
 }
 .contact-adress{
     grid-column: 1; 
-    grid-row: 3;
+    grid-row: 4;
 }
 
 .legend-contact{
@@ -478,7 +485,7 @@ nav {
   
    
 }
-.form
+
 
 .contwo,
 .conthree,
