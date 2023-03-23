@@ -195,6 +195,11 @@ nav {
 
 .legend-contact
 
+.footer-media-wrapp{
+   grid-area: page;
+   
+}
+
 .footer-media-wrapp,
 .instagram-wrapp,
 .facebook-wrapp{
@@ -207,6 +212,8 @@ nav {
     justify-self: center;
    
 }
+
+
 
 .pages-footer-wrapper,
 .about-footer,
