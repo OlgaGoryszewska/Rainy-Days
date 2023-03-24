@@ -338,8 +338,13 @@ nav {
 
 .item-img {
     display: flex;
-    width: 70%;
+    width: 165px;
+    height: 200px;
     align-items: center;
+    object-fit: cover;
+    
+    background-color: var(--light-gray);
+
 
 }
 .item-card {
