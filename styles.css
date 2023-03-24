@@ -34,6 +34,10 @@
     
      }
 
+main {
+    background-color: var(--background-green);
+}
+
 h1{
     color: var(--black);
     padding: 1rem;
