@@ -29,6 +29,7 @@
     --white: #fff;
     --black: #1C1B1F;
     --orange: #EC6830;
+    --background-green:#CBD5D4;
    
     
      }
@@ -187,6 +188,7 @@ nav {
     display: grid;
     grid-template-columns: 1;
     padding: 1rem;
+    background-color: #CBD5D4;
    
 }
 .contact-container{
@@ -207,6 +209,7 @@ nav {
    justify-items: center;
    margin:auto;
    padding: 2rem;
+   background-color: var(--background-green);
    
 
 }
