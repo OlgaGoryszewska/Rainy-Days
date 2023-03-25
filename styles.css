@@ -205,6 +205,10 @@ nav {
     font-family:  UrbanistLight;
     font-size: 16px;
 }
+
+.header-menu{
+    text-align: center;
+}
 .contact-page-container{
     display: grid;
     grid-template-columns: 1;
