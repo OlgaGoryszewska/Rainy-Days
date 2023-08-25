@@ -1,14 +1,14 @@
+
 const apiBase = "http://olga-rainy-days-cms.local";
 const wooCommerceBase = "/wp-json/wc/store";
 const productBase = "/products";
 
 const fullProductURL = apiBase + wooCommerceBase + productBase;
 
-async function getFeaturedProducts() {
+async function getProducts() {
     const response = await fetch(fullProductURL);
     const products = await response.json();
-    const featuredProducts = products.filter(product => product.featured); // Filter only featured products
-    return featuredProducts;
+    return products;
 }
 
 function createProductHTML(product) {
@@ -37,16 +37,17 @@ function createProductHTML(product) {
     container.appendChild(productContainer);
 }
 
-async function createFeaturedProductsHTML() {
-    const featuredProducts = await getFeaturedProducts();
-    for (let i = 0; i < featuredProducts.length; i++) {
-        const product = featuredProducts[i];
+
+async function createProductsHTML() {
+    const products = await getProducts();
+    for (let i = 0; i < products.length; i++) {
+        const product = products[i];
         createProductHTML(product);
     }
 }
 
 async function main() {
-    await createFeaturedProductsHTML();
+    await createProductsHTML();
 }
 
 main();
