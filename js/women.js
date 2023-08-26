@@ -55,4 +55,4 @@ async function main() {
     await createProductsHTML();
 }
 
-main(); 
+main();

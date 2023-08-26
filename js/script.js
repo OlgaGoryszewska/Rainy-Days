@@ -4,8 +4,8 @@ const productBase = "/products";
 
 const fullProductURL = apiBase + wooCommerceBase + productBase;
 
-async function getProducts() {
-    const response = await fetch(fullProductURL);
+async function getFeaturedProducts() {
+    const response = await fetch(`${fullProductURL}?featured=true`);
     const products = await response.json();
     return products;
 }
@@ -37,11 +37,11 @@ function redirectToProductDetailPage(productId) {
     window.location.href = `product-detail.html?id=${productId}`;
 }
 
-async function createProductsHTML() {
-    const products = await getProducts();
+async function createFeaturedProductsHTML() {
+    const featuredProducts = await getFeaturedProducts();
     const container = document.querySelector(".container");
 
-    for (const product of products) {
+    for (const product of featuredProducts) {
         const productContainer = createProductHTML(product);
         container.appendChild(productContainer);
 
@@ -52,7 +52,7 @@ async function createProductsHTML() {
 }
 
 async function main() {
-    await createProductsHTML();
+    await createFeaturedProductsHTML();
 }
 
-main(); 
+main();
