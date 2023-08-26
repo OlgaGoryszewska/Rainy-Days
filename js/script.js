@@ -4,11 +4,10 @@ const productBase = "/products";
 
 const fullProductURL = apiBase + wooCommerceBase + productBase;
 
-async function getFeaturedProducts() {
+async function getProducts() {
     const response = await fetch(fullProductURL);
     const products = await response.json();
-    const featuredProducts = products.filter(product => product.featured); // Filter only featured products
-    return featuredProducts;
+    return products;
 }
 
 function createProductHTML(product) {
@@ -21,32 +20,39 @@ function createProductHTML(product) {
     title.innerText = product.name;
     productContainer.appendChild(title);
 
-    if (product.images.length > 0) {
+    for (let i = 0; i < product.images.length; i++) {
+        const imgData = product.images[i];
         const img = document.createElement("img");
-        img.src = product.images[0].src;
-        img.alt = product.images[0].alt;
+        img.src = imgData.src;
+        img.alt = imgData.alt;
         productContainer.appendChild(img);
     }
 
-    const checkInButton = document.createElement("a");
-    checkInButton.innerText = "Check In";
-    checkInButton.href = product.permalink; // Link to the product detail page
-    checkInButton.classList.add("check-in-button");
-    productContainer.appendChild(checkInButton);
+    container.appendChild(productContainer); // Append the product container to the container in the DOM
 
-    container.appendChild(productContainer);
+    return productContainer;
 }
 
-async function createFeaturedProductsHTML() {
-    const featuredProducts = await getFeaturedProducts();
-    for (let i = 0; i < featuredProducts.length; i++) {
-        const product = featuredProducts[i];
-        createProductHTML(product);
+function redirectToProductDetailPage(productId) {
+    window.location.href = `product-detail.html?id=${productId}`;
+}
+
+async function createProductsHTML() {
+    const products = await getProducts();
+    const container = document.querySelector(".container");
+
+    for (const product of products) {
+        const productContainer = createProductHTML(product);
+        container.appendChild(productContainer);
+
+        productContainer.addEventListener("click", () => {
+            redirectToProductDetailPage(product.id);
+        });
     }
 }
 
 async function main() {
-    await createFeaturedProductsHTML();
+    await createProductsHTML();
 }
 
-main();
+main(); 
