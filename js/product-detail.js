@@ -30,7 +30,6 @@ function populateProductDetail(product) {
     productTitle.innerText = product.name;
     productDescription.innerText = product.description;
 
-    // You can also populate other product details if needed
 }
 
 async function main() {

@@ -28,7 +28,7 @@ function createProductHTML(product) {
         productContainer.appendChild(img);
     }
 
-    container.appendChild(productContainer); // Append the product container to the container in the DOM
+    container.appendChild(productContainer);
 
     return productContainer;
 }
