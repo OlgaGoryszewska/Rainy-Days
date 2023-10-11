@@ -1,63 +1,66 @@
-Link to Figma:
-https://www.figma.com/file/Fl4Qw0uzzeaFw9CdMjqgLM/2022-09-22_design_CA_OlgaGoryszewska_RainyDays?node-id=407%3A1856
-
 # Rainy-Days
 
 A webpage with Rain Jackets for outdoors lovers
 
 ![alt-text-here](../images/project-rainy-days.jpg)
 
-A simple overview of the use/purpose of the project.
-Description
+## Description
 
-Add a more detailed description of what your project entails and set out to do.
+Cross-Course Project, Uniting all subjects throughout the year, this comprehensive endeavor culminates in a dynamic webpage for a jacket company. Hardcoded in Visual Studio Code, the site seamlessly integrates HTML and CSS, offering a sophisticated interface. Notably, it dynamically fetches product data from a headless WordPress setup, showcasing a synthesis of technical prowess and multi-disciplinary collaboration in this expansive cross-curricular initiative.
 
-You can add some bullet points if you'd like to:
+## Figma File for design
 
-    List item 1
-    List item 2
-    List item 3
+Link to Figma:
+https://www.figma.com/file/Fl4Qw0uzzeaFw9CdMjqgLM/2022-09-22_design_CA_OlgaGoryszewska_RainyDays?node-id=407%3A1856
 
-Built With
+## Overview
 
-You can list a the tech stack that you've used over here
+This web page project is designed to showcase a collection of rain jackets. It includes information about different types of rain jackets, their features, and allows users to interact with the content.
 
-    React.js
-    Bootstrap
+## Features
 
-Getting Started
-Installing
+- Display various rain jackets with images and detailed information featured from Word Press by REST API call.
+- Provide a contact form for users to inquire about specific jackets.
+- Utilize JavaScript for dynamic content and interactivity.
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+## Technologies Used
 
-    Clone the repo:
+- HTML5
+- CSS3
+- JavaScript
 
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+## Getting Started
 
-    Install the dependencies:
+To run this project locally, follow these steps:
 
-npm install
+1. Clone the repository:
 
-Running
+   ```bash
+   git clone https://github.com/OlgaGoryszewska/Rainy-Days/tree/main/README
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+   ```
 
-To run the app, run the following commands:
+## Usage
 
-npm run start
+1 Navigate to the index.html file in your browser.
+2 Explore the collection of rain jackets.
+3 Click on individual jackets for more details.
+4 Visit the "Contact" page to inquire about a particular jacket.
 
-Contributing
+## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate CONTRIBUTING.md and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
-Contact
+If you'd like to contribute to this project, please follow these guidelines:
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+1 Fork the repository.
+2 Create a new branch: git checkout -b feature-name.
+3 Commit your changes: git commit -m 'Add a new feature'.
+4 Push to the branch: git push origin feature-name.
+5 Submit a pull request.
 
-My Twitter page
+## License
 
-My LinkedIn page
-License
+This project is licensed under the devgoddess.no.
 
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-Acknowledgments
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+## Contact
+
+For inquiries, please contact olga.goryszewska@gmail.com
