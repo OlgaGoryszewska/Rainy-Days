@@ -5,7 +5,7 @@ https://www.figma.com/file/Fl4Qw0uzzeaFw9CdMjqgLM/2022-09-22_design_CA_OlgaGorys
 
 A webpage with Rain Jackets for outdoors lovers
 
-![alt-text-here](./images/project-rainy-days.jpg)
+![alt-text-here](../images/project-rainy-days.jpg)
 
 A simple overview of the use/purpose of the project.
 Description
