@@ -2,7 +2,7 @@
 
 A webpage with Rain Jackets for outdoors lovers
 
-![alt-text-here](../images/project-rainy-days.jpg)
+![Rainy Days img](../images/project-rainy-days.jpg)
 
 ## Description
 
