@@ -8,6 +8,10 @@ A webpage with Rain Jackets for outdoors lovers
 
 Cross-Course Project, Uniting all subjects throughout the year, this comprehensive endeavor culminates in a dynamic webpage for a jacket company. Hardcoded in Visual Studio Code, the site seamlessly integrates HTML and CSS, offering a sophisticated interface. Notably, it dynamically fetches product data from a headless WordPress setup, showcasing a synthesis of technical prowess and multi-disciplinary collaboration in this expansive cross-curricular initiative.
 
+## link to webpage
+
+Link to netlify: https://devgoddessno.netlify.app/
+
 ## Figma File for design
 
 Link to Figma:
