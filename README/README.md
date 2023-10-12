@@ -32,6 +32,8 @@ This web page project is designed to showcase a collection of rain jackets. It i
 - HTML5
 - CSS3
 - JavaScript
+- Figma
+- Adobe Illustrator
 
 ## Getting Started
 
